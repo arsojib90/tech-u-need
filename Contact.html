@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <title>Tech You Need</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Lato&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Tech You Need</h1>
+            <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="Shop.html">Shop</a></li>
+                  <li><a href="Contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <input type="search" placeholder="Search...">
+        </header>
+
+        <aside>
+            <h2>Shop by:</h2>
+            <section>
+                <h3>Category</h3>
+ 
+                <div >
+                  <hr>
+                  <ul>
+                      <li class="hudai1">All items</li>
+                      <li class="hudai2">Phones</li>
+                      <li class="hudai3">Cables</li>
+                      <li class="hudai4">Chargers</li>
+                      <li class="hudai5">Ear Phones</li>
+                      <li class="hudai6">Wireless Ear Phones</li>
+                  </ul>
+              </div>
+          </section>
+          <section>
+              <h3>Price <span>(৳)</span></h3>
+               <div>
+               <hr>
+              <ul>
+              <li class="hudai7">(50-199) ৳</li>
+              <li class="hudai8">(200-499) ৳</li>
+              <li class="hudai9">(500-1000) ৳</li>
+              <li class="hudai10">(1000-1999) ৳</li>
+              <li class="hudai11">(2000-4999) ৳</li>
+              <li class="hudai12">(5000+) ৳</li>
+              </ul>
+             </div>
+            </section>
+       
+        </aside>
+
+        <main>
+          <h2>Contact Us : </h2>
+          <form>
+              <div class="inline">
+                 <label for="name"> Name :</label>  <input type="text" placeholder="Enter your name" id="name" name="name">
+                 
+              </div>
+
+              <div class="inline">
+                <label for="email"> Email :</label>  <input type="text" placeholder="Enter your Email" id="email" name="email">
+
+              </div>
+
+              <div class="inline">
+                <label for="message"> Message :</label>  <textarea colspan="30" rowspan="5" id="message" name="message"></textarea>
+
+              </div>
+            
+            <!--
+              <div>
+                  <label for="subject">Subject :</label>
+                  <select id="subject">
+                     <optgroup label="Product Issue">
+                        <option value="returens">Returns</option>
+                        <option value="faulty_items">Faulty items</option>
+                     </optgroup>
+                      
+                      <optgroup label="Delivery">
+                        <option value="delivery_info">Delivery Info</option>
+                        <option value="order_tracking">Tracking my order</option>
+                      </optgroup>
+
+                      <optgroup label="Others">
+                        <option value="advice">Advice</option>
+                        <option value="other">Other</option>
+                      </optgroup>
+
+                  </select>
+              </div>
+
+            -->
+
+            <div class="inline">
+              <label for="subject">Subject :</label>
+              <input type="text" list="subjects" id="subject" placeholder="Enter your Subject :">
+              <datalist id="subjects">
+                        <option value="returens">
+                        <option value="faulty_items">
+                        <option value="delivery_info">
+                        <option value="order_tracking">
+                        <option value="advice">
+                        <option value="other">
+
+              </datalist>
+            </div>
+
+             
+
+              <div>
+                  <p>Subscribe for future offer by </p>
+                  <label for="newsletter">Newsletter</label>
+                  <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+                  <label for="email">Email</label>
+                  <input type="checkbox" id="email" name="subscribe" value="email">
+
+                  <label for="post">Post</label>
+                  <input type="checkbox" id="post" name="subscribe" value="post">
+              </div>
+
+              <div>
+                  <p>How would you like to respond :</p>
+                  <label for="phoneResponse">Phone</label>
+                  <input type="radio" id="phoneResponse" name="response" value="phone">
+
+                  <label for="emailResponse">Email</label>
+                  <input type="radio" id="emailResponse" name="response" value="email">
+              </div>
+
+              <div>
+                <input type="submit">
+                <input type="reset">
+                <!--  <button type="submit">Submit</button> -->
+              </div>
+              
+              
+          </form>
+
+          
+         <!--
+
+            <form>
+             <input type="number" placeholder="Enter Your number">
+             <input type="password" placeholder="Enter Your password">
+             <input type="color"placeholder="Choose a color">
+             <input type="range" min="0" max="100" value="69"placeholder="Enter Your Skill rating">
+             <input type="date" placeholder="Enter Your Birthdate">
+
+           </form>
+         -->
+
+           <!--  
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/43TmnIaL3n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+           -->  
+              
+          <!-- we  can add goodle maps from google api too .check that out too-->
+         
+
+        </main>
+
+    <footer>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+        
+    </footer>
+       
+    </body>
+</html>

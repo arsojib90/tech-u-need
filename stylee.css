@@ -1,0 +1,263 @@
+html{
+    background-color: #f7f7f7;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: white;
+ 
+    margin: 0 auto;
+    text-align: center;
+}
+
+header , footer {
+    background-color: #333a40;
+    color:  white;
+    padding: 20px 10px;
+}
+
+input[type="search"]{
+    width: 100%;
+}
+
+header li{
+    display: inline;
+}
+
+header h1 , nav{
+     display: inline-block; 
+    
+}
+       header h1 {
+    font-size: 70px; 
+    width: 100%;
+}
+header nav{
+    margin: 10px;
+    font-size: 20px;
+}
+ 
+/* */
+
+.product{
+   border: 1px solid gray;
+  
+   margin: 5px;
+   padding: 5px;
+   
+   box-sizing: border-box;
+   text-align: center;
+   width: 100%;
+}
+
+img{
+   max-width: 100%;
+   max-height: 220px;
+   
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+    line-height: 30px;
+}
+.button{
+    padding: 10px;
+    display: inline-block;
+}
+
+.button:last-of-type{
+background-color: #0e69e9;
+color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #0e69e9;
+}
+
+.product-details{
+    width: 660px;
+}
+
+.product-details img{ 
+    width: 40%; 
+    margin: 10px;
+    float: left;
+    
+} 
+
+/* contact */
+form{
+    width: 600px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form > div {
+    margin: 10px 0;
+}
+
+.inline label{
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"] ,input[type="email"],textarea{
+    padding: 10px;
+    width: 400px;
+}
+
+/* Table */
+
+/* table{
+    text-align: left;
+    width: 400px;
+    margin: 20px 0;
+} */
+
+/* caption{
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    border-bottom: 1px dotted;
+} */
+/* 
+th,td{
+    padding: 10px;
+} */
+/* tr:hover{
+    background-color: #c2c2be;
+    font-weight: bold;
+    font-size: 20px;
+} */
+
+/*                 Alt  + Shift + A   for comments            */
+/* 
+.hudai1:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai2:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai3:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai4:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai5:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai6:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai7:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai8:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai9:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai10:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai11:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+.hudai12:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: #4c4d91;
+}
+
+
+@media (min-width:800px) {
+    input[type="search"]{
+        width: 40%;
+        margin-left: 2em;
+    }
+
+    .product{
+        display: inline-block;
+        width: 48%;
+    }
+} */
+
+/* @media (min-width:1000px) {
+    body{
+        text-align: left;
+    }
+
+    header h1{
+        width: 60%;
+    }
+    main{
+    
+        width: 50vw;
+       display: inline-block;
+       padding: 10px;
+   } 
+   
+    aside{
+       width: 20vw;
+       display: inline-block;
+       vertical-align: top;
+       padding: 10px;
+       
+   } 
+} */
+
+/* @media (min-width:1200px) {
+   body{
+       max-width: 80vw;
+   }    
+   .product{
+       width: 30%;
+   }
+   input[type="search"]{
+       width: 20%;
+   }
+
+   .product-details{
+    width: 660px;
+   }
+
+   .product-details img{ 
+    width: 40%; 
+    margin: 10px;
+    float: left;
+    
+} 
+} */
